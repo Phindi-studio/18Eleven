@@ -1,5 +1,5 @@
 /* =============================================================
-   MAMELODI FC — STYLESHEET
+   18ELEVEN FC — STYLESHEET
    Theme: Black (#0A0A0A) & Gold (#D4AF37)
    Fonts: Montserrat (headings) / Poppins (body)
    ============================================================= */
@@ -1276,4 +1276,15 @@ textarea:focus-visible {
   .footer-grid { grid-template-columns: 1fr; }
   .hero-ctas { flex-direction: column; align-items: stretch; }
   .lightbox-prev, .lightbox-next { width: 40px; height: 40px; font-size: 1.2rem; }
+}
+.brand-crest {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.brand-crest img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
 }
